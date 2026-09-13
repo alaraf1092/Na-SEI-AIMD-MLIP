@@ -1,0 +1,32 @@
+# VASP large output files
+WAVECAR
+CHGCAR
+CHG
+PROCAR
+DOSCAR
+EIGENVAL
+vasprun.xml
+XDATCAR
+
+# VASP temporary/output files
+vasp.out
+OUTCAR
+OSZICAR
+REPORT
+IBZKPT
+CONTCAR
+
+# Slurm output
+slurm-*.out
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
