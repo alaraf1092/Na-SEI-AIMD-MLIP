@@ -38,7 +38,7 @@ SEI formation and structural analysis
 The initial computational model consists of a 3×3 Na(100) surface
 constructed from bulk BCC sodium.
 
-![Na(100) 3x3 surface](figures/Na100_3x3_surface.png)
+![Na(100) 3x3 surface](figures/Na100_3x3_surface.png.png)
 
 ## Tools
 
