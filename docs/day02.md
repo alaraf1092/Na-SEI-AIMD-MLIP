@@ -250,25 +250,21 @@ This confirms that the 90-atom Na(100) system can successfully be executed with 
 
 ## 9. Electronic SCF Convergence
 
-The VASP output showed progressive convergence of the electronic iterations.
+The VASP calculation completed the electronic self-consistency cycle
+successfully. The final reported electronic iteration was:
 
-The calculation reached **DAV: 22**.
-
-The final electronic iteration was:
-
-    DAV: 22    -0.116435339770E+03
+DAV: 22
 
 The final energy reported in the VASP output was:
 
-    F = -116.43534 eV
+F = -116.43534 eV
 
-The `OUTCAR` reported:
+The OUTCAR reported:
 
-    free  energy   TOTEN  =      -116.43533977 eV
+free  energy   TOTEN  =      -116.43533977 eV
 
-Therefore, the final total energy from this calculation was:
-
-**-116.43533977 eV**
+The calculation completed successfully with the specified electronic
+convergence criterion (EDIFF = 1E-6).
 
 ---
 
