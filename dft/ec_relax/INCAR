@@ -1,0 +1,28 @@
+SYSTEM = EC molecule relaxation
+
+ENCUT = 500
+PREC = Normal
+
+EDIFF = 1E-5
+EDIFFG = -1E-4
+
+ISMEAR = 0
+SIGMA = 0.05
+
+ALGO = Fast
+
+IBRION = 2
+NSW = 100
+POTIM = 0.1
+ISIF = 3
+
+LREAL = Auto
+NCORE = 4
+
+ISPIN = 1
+
+ISTART = 0
+ICHARG = 2
+
+LWAVE = .FALSE.
+LCHARG = .FALSE.

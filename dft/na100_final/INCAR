@@ -1,0 +1,28 @@
+SYSTEM = Na(100) slab final relaxation
+
+ENCUT = 500
+PREC = Normal
+
+EDIFF = 1E-5
+EDIFFG = -0.01
+
+ISMEAR = 1
+SIGMA = 0.1
+
+ALGO = Fast
+
+IBRION = 2
+NSW = 100
+POTIM = 0.1
+ISIF = 2
+
+LREAL = Auto
+NCORE = 4
+
+ISPIN = 1
+
+ISTART = 0
+ICHARG = 2
+
+LWAVE = .FALSE.
+LCHARG = .FALSE.
