@@ -37,6 +37,12 @@ The optimized EC structure was saved as:
 
 `structures/POSCAR_EC_relaxed`
 
+### Optimized EC Structure
+
+The optimized ethylene carbonate geometry obtained after DFT relaxation is shown below.
+
+![Optimized ethylene carbonate structure](../figures/EC_relaxed.png)
+
 ---
 
 ## 2. Na(100) Slab Final Relaxation
