@@ -9,6 +9,9 @@ Day 08 focused on establishing a consistent production DFT methodology before re
 The original Na(100)/EC relaxation was found to contain an incorrect constraint pattern.
 
 The 27 frozen Na atoms were distributed across all Na layers rather than corresponding to the bottom three layers. Therefore, the original constraints are not suitable for AIMD and the slab must be rebuilt with height-based layer selection.
+![Relaxed Na(100)/EC interface](../figures/day08_Na100_EC_relaxed.png)
+
+**Figure 1.** Relaxed Na(100)/EC interface used as the reference geometry during the functional-screening stage.
 
 ## 2. Na Bulk Functional Screening
 
